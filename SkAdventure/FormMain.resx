@@ -1,0 +1,285 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="textBox_Username.Location" type="System.Drawing.Point, System.Drawing">
+    <value>390, 186</value>
+  </data>
+  <data name="textBox_Username.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 21</value>
+  </data>
+  <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="textBox_Username.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;textBox_Username.Name" xml:space="preserve">
+    <value>textBox_Username</value>
+  </data>
+  <data name="&gt;&gt;textBox_Username.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;textBox_Username.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;textBox_Username.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="comboBox_College.Items" xml:space="preserve">
+    <value>信息科学与工程学院</value>
+  </data>
+  <data name="comboBox_College.Items1" xml:space="preserve">
+    <value>矿业与安全工程学院</value>
+  </data>
+  <data name="comboBox_College.Items2" xml:space="preserve">
+    <value>测绘科学与工程学院</value>
+  </data>
+  <data name="comboBox_College.Items3" xml:space="preserve">
+    <value>地球科学与工程学院</value>
+  </data>
+  <data name="comboBox_College.Items4" xml:space="preserve">
+    <value>土木工程与建筑学院</value>
+  </data>
+  <data name="comboBox_College.Items5" xml:space="preserve">
+    <value>机械电子工程学院</value>
+  </data>
+  <data name="comboBox_College.Items6" xml:space="preserve">
+    <value>数学与系统科学学院</value>
+  </data>
+  <data name="comboBox_College.Items7" xml:space="preserve">
+    <value>经济管理学院</value>
+  </data>
+  <data name="comboBox_College.Items8" xml:space="preserve">
+    <value>电气与自动化工程学院</value>
+  </data>
+  <data name="comboBox_College.Items9" xml:space="preserve">
+    <value>电子通信与物理学院</value>
+  </data>
+  <data name="comboBox_College.Items10" xml:space="preserve">
+    <value>化学与环境工程学院</value>
+  </data>
+  <data name="comboBox_College.Items11" xml:space="preserve">
+    <value>材料科学与工程学院</value>
+  </data>
+  <data name="comboBox_College.Items12" xml:space="preserve">
+    <value>交通学院</value>
+  </data>
+  <data name="comboBox_College.Items13" xml:space="preserve">
+    <value>文法学院</value>
+  </data>
+  <data name="comboBox_College.Items14" xml:space="preserve">
+    <value>外国语学院</value>
+  </data>
+  <data name="comboBox_College.Items15" xml:space="preserve">
+    <value>艺术与设计学院</value>
+  </data>
+  <data name="comboBox_College.Items16" xml:space="preserve">
+    <value>马克思主义学院</value>
+  </data>
+  <data name="comboBox_College.Items17" xml:space="preserve">
+    <value>体育学院</value>
+  </data>
+  <data name="comboBox_College.Items18" xml:space="preserve">
+    <value>继续教育学院</value>
+  </data>
+  <data name="comboBox_College.Location" type="System.Drawing.Point, System.Drawing">
+    <value>390, 270</value>
+  </data>
+  <data name="comboBox_College.Size" type="System.Drawing.Size, System.Drawing">
+    <value>144, 20</value>
+  </data>
+  <data name="comboBox_College.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;comboBox_College.Name" xml:space="preserve">
+    <value>comboBox_College</value>
+  </data>
+  <data name="&gt;&gt;comboBox_College.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;comboBox_College.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;comboBox_College.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="btn_Sure.BackgroundImageLayout" type="System.Windows.Forms.ImageLayout, System.Windows.Forms">
+    <value>Zoom</value>
+  </data>
+  <data name="btn_Sure.Location" type="System.Drawing.Point, System.Drawing">
+    <value>247, 349</value>
+  </data>
+  <data name="btn_Sure.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 47</value>
+  </data>
+  <data name="btn_Sure.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;btn_Sure.Name" xml:space="preserve">
+    <value>btn_Sure</value>
+  </data>
+  <data name="&gt;&gt;btn_Sure.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Sure.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Sure.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="btn_Cancel.Location" type="System.Drawing.Point, System.Drawing">
+    <value>419, 349</value>
+  </data>
+  <data name="btn_Cancel.Size" type="System.Drawing.Size, System.Drawing">
+    <value>115, 47</value>
+  </data>
+  <data name="btn_Cancel.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Name" xml:space="preserve">
+    <value>btn_Cancel</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btn_Cancel.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
+    <value>6, 12</value>
+  </data>
+  <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
+    <value>784, 521</value>
+  </data>
+  <data name="$this.Text" xml:space="preserve">
+    <value>山科历险记</value>
+  </data>
+  <data name="&gt;&gt;$this.Name" xml:space="preserve">
+    <value>FormMain</value>
+  </data>
+  <data name="&gt;&gt;$this.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Form, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+</root>

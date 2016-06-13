@@ -1,0 +1,452 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4AA79A56-35A2-4EE4-983F-C6870EC6211E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SkAdventure</RootNamespace>
+    <AssemblyName>SkAdventure</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="FengYu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FengYu.Designer.cs">
+      <DependentUpon>FengYu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormDialog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDialog.Designer.cs">
+      <DependentUpon>FormDialog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormSpring.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormSpring.Designer.cs">
+      <DependentUpon>FormSpring.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_autumn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_autumn.Designer.cs">
+      <DependentUpon>Form_autumn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_summer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_summer.Designer.cs">
+      <DependentUpon>Form_summer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form_winter.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form_winter.Designer.cs">
+      <DependentUpon>Form_winter.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LearnComputer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LearnComputer.Designer.cs">
+      <DependentUpon>LearnComputer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LearnSkill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LearnSkill.Designer.cs">
+      <DependentUpon>LearnSkill.cs</DependentUpon>
+    </Compile>
+    <Compile Include="LiZhiFang.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LiZhiFang.Designer.cs">
+      <DependentUpon>LiZhiFang.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MakeFriend.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MakeFriend.Designer.cs">
+      <DependentUpon>MakeFriend.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ParttimeWork.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ParttimeWork.Designer.cs">
+      <DependentUpon>ParttimeWork.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SeeSeason.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SeeSeason.Designer.cs">
+      <DependentUpon>SeeSeason.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SkAdventure.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SkAdventure.Designer.cs">
+      <DependentUpon>SkAdventure.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TuShuGuan.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TuShuGuan.Designer.cs">
+      <DependentUpon>TuShuGuan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YanHu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YanHu.Designer.cs">
+      <DependentUpon>YanHu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="FengYu.resx">
+      <DependentUpon>FengYu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormDialog.resx">
+      <DependentUpon>FormDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormSpring.resx">
+      <DependentUpon>FormSpring.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_autumn.resx">
+      <DependentUpon>Form_autumn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_summer.resx">
+      <DependentUpon>Form_summer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form_winter.resx">
+      <DependentUpon>Form_winter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LearnComputer.resx">
+      <DependentUpon>LearnComputer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LearnSkill.resx">
+      <DependentUpon>LearnSkill.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LiZhiFang.resx">
+      <DependentUpon>LiZhiFang.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MakeFriend.resx">
+      <DependentUpon>MakeFriend.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ParttimeWork.resx">
+      <DependentUpon>ParttimeWork.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="SeeSeason.resx">
+      <DependentUpon>SeeSeason.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SkAdventure.resx">
+      <DependentUpon>SkAdventure.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TuShuGuan.resx">
+      <DependentUpon>TuShuGuan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="YanHu.resx">
+      <DependentUpon>YanHu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StartBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\child_new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainCancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MainSure.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SkAdventure.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xuezhecanting_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xuezhecanting_after.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fengyu_after.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fengyu_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lizhifang_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lizifang_after.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moshuihe_after.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\moshuihe_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tiyuguan_after.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tiyuguan_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tushuguan_after.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tushuguan_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xueyuancanting_after.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xueyuancanting_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xuezhecanting_after1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\xuezhecanting_pre1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yanhu_after.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\yanhu_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LearnSkill_after.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LearnSkill_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MakeFriend_after.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\NakeFriebd_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ParttimeWork_after.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PartTimeWork_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SeeSeason_after.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SeeSeason_pre %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\SeeSeason_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MakeFriebd_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_dengyu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_lizhifang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_tushuguan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_yanhu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_fengyu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\backgrund_learnskill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\exit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_seeseason.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\autumn_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spring_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\summer_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\winter_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\autumn_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\autumn_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\autumn_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_autumn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_spring.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_summer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_winter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spring_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spring_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spring_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\summer_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\summer_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\summer_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\winter_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\winter_2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\winter_3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_makefriend.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_parttimework.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spring_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spring_21.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\spring_31.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_learnskill.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chemistry_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computer_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\english_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_learncomputer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\computerlearn_pre.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
