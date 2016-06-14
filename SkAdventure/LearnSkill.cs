@@ -138,12 +138,14 @@ namespace SkAdventure
         {
             sda.addPower(10);
             sda.addGrade(5);
+            MessageBox.Show("wa~,这么努力的做实验呢~，能量+10，成绩+5");
         }
 
         private void btn_english_Click(object sender, EventArgs e)
         {
             sda.addPower(10);
             sda.addGrade(5);
+            MessageBox.Show("wa~，学习英语好刻苦~，能量+10，成绩+5");
         }
 
         private void btn_computer_Click(object sender, EventArgs e)

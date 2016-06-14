@@ -173,6 +173,46 @@ namespace SkAdventure.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap background_makefriend_englishcorner {
+            get {
+                object obj = ResourceManager.GetObject("background_makefriend_englishcorner", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap background_makefriend_gymnasium {
+            get {
+                object obj = ResourceManager.GetObject("background_makefriend_gymnasium", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap background_makefriend_library {
+            get {
+                object obj = ResourceManager.GetObject("background_makefriend_library", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap background_makefriend1 {
+            get {
+                object obj = ResourceManager.GetObject("background_makefriend1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap background_parttimework {
             get {
                 object obj = ResourceManager.GetObject("background_parttimework", resourceCulture);
@@ -253,6 +293,56 @@ namespace SkAdventure.Properties {
         /// <summary>
         ///   查找 System.Drawing.Bitmap 类型的本地化资源。
         /// </summary>
+        internal static System.Drawing.Bitmap btn_hometeacher_pre {
+            get {
+                object obj = ResourceManager.GetObject("btn_hometeacher_pre", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap btn_ignore_pre {
+            get {
+                object obj = ResourceManager.GetObject("btn_ignore_pre", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap btn_leaf_pre {
+            get {
+                object obj = ResourceManager.GetObject("btn_leaf_pre", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap btn_makefriend_pre {
+            get {
+                object obj = ResourceManager.GetObject("btn_makefriend_pre", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap btn_order_pre {
+            get {
+                object obj = ResourceManager.GetObject("btn_order_pre", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
         internal static System.Drawing.Bitmap chemistry_pre {
             get {
                 object obj = ResourceManager.GetObject("chemistry_pre", resourceCulture);
@@ -326,6 +416,36 @@ namespace SkAdventure.Properties {
         internal static System.Drawing.Bitmap fengyu_pre {
             get {
                 object obj = ResourceManager.GetObject("fengyu_pre", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap goenglishcorner_pre {
+            get {
+                object obj = ResourceManager.GetObject("goenglishcorner_pre", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap gogymnasium_pre {
+            get {
+                object obj = ResourceManager.GetObject("gogymnasium_pre", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   查找 System.Drawing.Bitmap 类型的本地化资源。
+        /// </summary>
+        internal static System.Drawing.Bitmap golibrary_pre {
+            get {
+                object obj = ResourceManager.GetObject("golibrary_pre", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

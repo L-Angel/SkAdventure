@@ -17,7 +17,10 @@ namespace SkAdventure
         {
             InitializeComponent();
             CheckForIllegalCrossThreadCalls = false;
-  
+            this.DoubleBuffered = true;
+            SetStyle(ControlStyles.ResizeRedraw, true);
+            SetStyle(ControlStyles.OptimizedDoubleBuffer, true);
+            SetStyle(ControlStyles.AllPaintingInWmPaint, true);
            // new FormMain().Show();
           
         }

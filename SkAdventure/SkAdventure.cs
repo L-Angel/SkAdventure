@@ -149,19 +149,19 @@ namespace SkAdventure
 
         private void btn_SeeSeason_Click(object sender, EventArgs e)
         {
-            Form f = new SeeSeason();
+            Form f = new SeeSeason(this);
             f.Show();
         }
 
         private void btn_MakeFriend_Click(object sender, EventArgs e)
         {
-            Form f = new MakeFriend();
+            Form f = new MakeFriend(this);
             f.Show();
         }
 
         private void btn_ParttimeWork_Click(object sender, EventArgs e)
         {
-            Form f = new ParttimeWork();
+            Form f = new ParttimeWork(this);
             f.Show();
         }
     }

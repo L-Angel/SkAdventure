@@ -73,6 +73,7 @@
             this.Controls.Add(this.pictureBox_autumn2);
             this.Controls.Add(this.pictureBox_autumn1);
             this.Name = "Form_autumn";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "秋";
             this.Load += new System.EventHandler(this.Form_autumn_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_autumn1)).EndInit();

@@ -49,6 +49,7 @@
             this.ClientSize = new System.Drawing.Size(784, 521);
             this.Controls.Add(this.btn_learncomputer);
             this.Name = "LearnComputer";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "山科历险记";
             this.ResumeLayout(false);
 

@@ -37,6 +37,7 @@
             this.BackgroundImage = global::SkAdventure.Properties.Resources.background_lizhifang;
             this.ClientSize = new System.Drawing.Size(784, 521);
             this.Name = "LiZhiFang";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "励志坊";
             this.ResumeLayout(false);
 

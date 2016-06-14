@@ -37,6 +37,7 @@
             this.BackgroundImage = global::SkAdventure.Properties.Resources.background_tushuguan;
             this.ClientSize = new System.Drawing.Size(784, 521);
             this.Name = "TuShuGuan";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "图书馆";
             this.ResumeLayout(false);
 

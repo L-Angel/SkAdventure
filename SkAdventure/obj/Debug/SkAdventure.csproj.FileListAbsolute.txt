@@ -8,7 +8,6 @@ D:\Projects\SkAdventure\SkAdventure\obj\Debug\SkAdventure.Properties.Resources.r
 D:\Projects\SkAdventure\SkAdventure\obj\Debug\SkAdventure.csproj.GenerateResource.Cache
 D:\Projects\SkAdventure\SkAdventure\obj\Debug\SkAdventure.exe
 D:\Projects\SkAdventure\SkAdventure\obj\Debug\SkAdventure.pdb
-D:\Projects\SkAdventure\SkAdventure\obj\Debug\SkAdventure.csprojResolveAssemblyReference.cache
 D:\Projects\SkAdventure\SkAdventure\obj\Debug\SkAdventure.SkAdventure.resources
 D:\Projects\SkAdventure\SkAdventure\obj\Debug\SkAdventure.FengYu.resources
 D:\Projects\SkAdventure\SkAdventure\obj\Debug\SkAdventure.LiZhiFang.resources
@@ -23,3 +22,6 @@ D:\Projects\SkAdventure\SkAdventure\obj\Debug\SkAdventure.Form_winter.resources
 D:\Projects\SkAdventure\SkAdventure\obj\Debug\SkAdventure.MakeFriend.resources
 D:\Projects\SkAdventure\SkAdventure\obj\Debug\SkAdventure.ParttimeWork.resources
 D:\Projects\SkAdventure\SkAdventure\obj\Debug\SkAdventure.LearnComputer.resources
+D:\Projects\SkAdventure\SkAdventure\obj\Debug\SkAdventure.GoGymnasium.resources
+D:\Projects\SkAdventure\SkAdventure\obj\Debug\SkAdventure.GoLibrary.resources
+D:\Projects\SkAdventure\SkAdventure\obj\Debug\SkAdventure.GoEnglishCorner.resources

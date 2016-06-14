@@ -74,6 +74,7 @@
             this.Controls.Add(this.pictureBox_spring2);
             this.Controls.Add(this.pictureBox_spring3);
             this.Name = "FormSpring";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "春";
             this.Load += new System.EventHandler(this.FormSpring_Load);
             this.Shown += new System.EventHandler(this.FormSpring_Shown);

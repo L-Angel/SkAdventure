@@ -37,6 +37,7 @@
             this.BackgroundImage = global::SkAdventure.Properties.Resources.background_fengyu;
             this.ClientSize = new System.Drawing.Size(784, 521);
             this.Name = "FengYu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "风雨操场";
             this.ResumeLayout(false);
 

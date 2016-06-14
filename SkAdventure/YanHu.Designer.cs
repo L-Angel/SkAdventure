@@ -37,6 +37,7 @@
             this.BackgroundImage = global::SkAdventure.Properties.Resources.background_yanhu;
             this.ClientSize = new System.Drawing.Size(784, 521);
             this.Name = "YanHu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "砚湖";
             this.ResumeLayout(false);
 

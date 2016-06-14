@@ -27,6 +27,7 @@ namespace SkAdventure
         {
             sda.addGrade(5);
             sda.addPower(10);
+            MessageBox.Show("学习我大信息的专业技能，必须点个赞。成绩+5，能量+10");
         }
     }
 }

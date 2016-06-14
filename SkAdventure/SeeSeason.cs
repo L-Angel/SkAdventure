@@ -12,9 +12,16 @@ namespace SkAdventure
 {
     public partial class SeeSeason : Form
     {
+        private SkAdventure sda = null;
         public SeeSeason()
         {
             InitializeComponent();
+        }
+        public SeeSeason(SkAdventure s)
+        {
+            this.sda = s;
+            InitializeComponent();
+            CheckForIllegalCrossThreadCalls = false;
         }
 
         private void btn_spring_Click(object sender, EventArgs e)

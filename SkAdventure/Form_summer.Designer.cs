@@ -73,6 +73,7 @@
             this.Controls.Add(this.pictureBox_summer2);
             this.Controls.Add(this.pictureBox_summer3);
             this.Name = "Form_summer";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "夏";
             this.Shown += new System.EventHandler(this.Form_summer_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_summer3)).EndInit();

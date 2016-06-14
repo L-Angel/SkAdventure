@@ -84,6 +84,7 @@
             this.Controls.Add(this.pictureBox_winter2);
             this.Controls.Add(this.pictureBox_winter1);
             this.Name = "Form_winter";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "冬";
             this.Load += new System.EventHandler(this.Form_winter_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_winter1)).EndInit();

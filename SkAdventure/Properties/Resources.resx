@@ -163,6 +163,9 @@
   <data name="background_winter" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background_winter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="autumn_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\autumn_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="winter_pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\winter_pre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -184,11 +187,14 @@
   <data name="background_seeseason" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background_seeseason.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MainSure" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MainSure.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="golibrary_pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\golibrary_pre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="computer_pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\computer_pre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background_makefriend1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background_makefriend1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="spring_31" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\spring_31.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -196,8 +202,14 @@
   <data name="xuezhecanting_after1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\xuezhecanting_after1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="computerlearn_pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\computerlearn_pre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="xuezhecanting_pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\xuezhecanting_pre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SeeSeason_pre (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SeeSeason_pre (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="background_makefriend" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background_makefriend.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,14 +220,17 @@
   <data name="SeeSeason_pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\SeeSeason_pre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="child_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\child_new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btn_makefriend_pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_makefriend_pre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MakeFriend_after" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MakeFriend_after.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="summer_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\summer_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="autumn_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\autumn_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MainSure" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MainSure.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="spring_21" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\spring_21.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -241,14 +256,23 @@
   <data name="background_yanhu" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background_yanhu.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="gogymnasium_pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gogymnasium_pre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="ParttimeWork_after" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ParttimeWork_after.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="child_new" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\child_new.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="summer_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\summer_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background_learncomputer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background_learncomputer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="NakeFriebd_pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\NakeFriebd_pre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="SkAdventure" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SkAdventure.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="background_parttimework" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background_parttimework.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -280,47 +304,56 @@
   <data name="moshuihe_pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\moshuihe_pre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="background_makefriend_englishcorner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background_makefriend_englishcorner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="background_learnskill" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background_learnskill.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="tushuguan_after" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\tushuguan_after.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="MakeFriebd_pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\MakeFriebd_pre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="summer_pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\summer_pre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="background_makefriend_library" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background_makefriend_library.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="spring_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\spring_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="moshuihe_after" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\moshuihe_after.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="SkAdventure" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SkAdventure.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="background_spring" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\background_spring.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="autumn_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\autumn_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btn_ignore_pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_ignore_pre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="autumn_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\autumn_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="goenglishcorner_pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\goenglishcorner_pre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="PartTimeWork_pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PartTimeWork_pre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="xuezhecanting_pre1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\xuezhecanting_pre1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="fengyu_after" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\fengyu_after.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="summer_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\summer_1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="background_makefriend_gymnasium" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\background_makefriend_gymnasium.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="summer_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\summer_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="MakeFriebd_pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MakeFriebd_pre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="moshuihe_after" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\moshuihe_after.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="MakeFriend_after" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\MakeFriend_after.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="autumn_pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\autumn_pre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -328,13 +361,16 @@
   <data name="winter_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\winter_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="SeeSeason_pre (2)" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\SeeSeason_pre (2).png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="xuezhecanting_pre1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\xuezhecanting_pre1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="background_learncomputer" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\background_learncomputer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btn_hometeacher_pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_hometeacher_pre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="computerlearn_pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\computerlearn_pre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="btn_leaf_pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_leaf_pre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="btn_order_pre" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\btn_order_pre.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

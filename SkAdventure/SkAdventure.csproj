@@ -11,6 +11,21 @@
     <AssemblyName>SkAdventure</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <PublishUrl>发布\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -92,6 +107,24 @@
     <Compile Include="Form_winter.Designer.cs">
       <DependentUpon>Form_winter.cs</DependentUpon>
     </Compile>
+    <Compile Include="GoEnglishCorner.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoEnglishCorner.Designer.cs">
+      <DependentUpon>GoEnglishCorner.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoGymnasium.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoGymnasium.Designer.cs">
+      <DependentUpon>GoGymnasium.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GoLibrary.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GoLibrary.Designer.cs">
+      <DependentUpon>GoLibrary.cs</DependentUpon>
+    </Compile>
     <Compile Include="LearnComputer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -171,6 +204,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Form_winter.resx">
       <DependentUpon>Form_winter.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoEnglishCorner.resx">
+      <DependentUpon>GoEnglishCorner.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoGymnasium.resx">
+      <DependentUpon>GoGymnasium.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GoLibrary.resx">
+      <DependentUpon>GoLibrary.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="LearnComputer.resx">
       <DependentUpon>LearnComputer.cs</DependentUpon>
@@ -440,6 +482,59 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\computerlearn_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_ignore_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_makefriend_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\goenglishcorner_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gogymnasium_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\golibrary_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_makefriend1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_makefriend_englishcorner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_makefriend_gymnasium.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\background_makefriend_library.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 和 x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_hometeacher_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_leaf_pre.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\btn_order_pre.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

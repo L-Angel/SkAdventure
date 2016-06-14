@@ -289,6 +289,7 @@
             this.Controls.Add(this.btn_SeeSeason);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "SkAdventure";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "山科历险记";
             this.Load += new System.EventHandler(this.SkAdventure_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox_Exit)).EndInit();
